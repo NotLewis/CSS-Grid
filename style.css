@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i');
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100i');
+
+
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2e2e2e;
+}
+
+
+
+
+/* .italic{
+    font-style: italic;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: 900;    
+} */
+
+
+
+
+.top{
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.5;
+    width:90%;
+}
+
+.top .frankenstein{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight: 900;  
+    padding-right:8px; 
+}
+
+.top-quote{
+    padding-top: 2rem;
+}
+
+.bold-italic{
+    font-weight: 600; 
+    font-style: italic;
+}
+
+
+
+
+.italic-heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    font-style: italic;
+    /* border:1px solid red; */
+}
+
+.italic-heading p{
+    padding:0;
+    margin:0;
+}
+
+
+
+.quote{
+    position: relative;
+    top: -4rem;
+
+    background-color:grey;
+    color:white;
+    font-size:30px;
+    padding:1rem;
+    text-transform: uppercase;
+    line-height:1.6;
+    margin-bottom:70px;
+
+}
+
+
+.about{
+    position: relative;
+    top: -9rem;
+    font-size:19px;
+    line-height:1.3;
+}
+
+.about-more{
+    position: relative;
+    top: -5rem;
+
+    font-size:19px;
+    line-height:1.3;
+}
+
+
+
+
+
+/* GRID 1920*/
+.gird-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+    grid-row: auto;
+    width:calc(90% - 10px);
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+.top{
+    grid-column: 4 / 5;
+    grid-row: 1;
+}
+
+.italic-heading{
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+}
+
+.quote{
+    grid-column: 3 / 5;
+    grid-row: 3;
+}
+
+.dates{
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+
+.about{
+    grid-column: 4 / 5;
+    grid-row: 4;
+   
+}
+
+.about-more{
+    grid-column: 5 / 7;
+    grid-row: 3;
+}
