@@ -107,7 +107,7 @@ body{
 
 
 
-/* GRID 1920*/
+/* GRID */
 .gird-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
@@ -116,6 +116,7 @@ body{
     grid-gap: 10px;
     margin: 0 auto;
 }
+
 
 .top{
     grid-column: 4 / 5;
